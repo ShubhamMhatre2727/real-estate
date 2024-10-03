@@ -25,3 +25,23 @@ body {
     text-wrap: balance;
   }
 }
+
+.heads{
+  color: rgb(94, 94, 255);
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-210%); }
+}
+
+/* Enable animation */
+.marquee {
+  animation: scroll 8s infinite linear;
+}
+
+.card-radius{
+  border-radius: 75px 20px 20px 20px;
+}
