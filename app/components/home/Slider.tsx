@@ -2,7 +2,7 @@
 import Image from "next/image"
 import LeftArrow from "./LeftArrow"
 import RightArrow from "./RightArrrow"
-import { MutableRefObject, RefObject, useRef, useState } from "react"
+import { useRef, useState } from "react"
 
 const Slider = () => {
     const ref = useRef<HTMLDivElement | null>(null);

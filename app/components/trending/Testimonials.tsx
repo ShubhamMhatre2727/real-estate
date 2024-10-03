@@ -26,7 +26,7 @@ function Wrap(){
         <div className="rounded-3xl p-8 shadow-xl">
             <Image src="/trending/testimonials/comma.svg" alt="" width={70} height={100}/>
             <p className="py-4">
-            I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We couldn't be happier with our new place!
+            I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We couldn&rsqou;t be happier with our new place!
             </p>
 
             <hr/>

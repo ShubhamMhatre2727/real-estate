@@ -8,7 +8,7 @@ export default function  Estates() {
   return (
     <div className="flex flex-wrap gap-6 py-8">
         {
-            list.map((item:Estate_Type, idx:Number)=>(
+            list.map((item:Estate_Type)=>(
                 <Estate key={`${item.title}`} item={item}/>
             ))
         }

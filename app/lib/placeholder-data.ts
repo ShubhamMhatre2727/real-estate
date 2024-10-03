@@ -1,7 +1,3 @@
-import { url } from "inspector"
-import { title } from "process"
-import { text } from "stream/consumers"
-
 export const estates=[
     {
         url:"/listings/estate1.jpg",

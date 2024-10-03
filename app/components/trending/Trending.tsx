@@ -1,6 +1,4 @@
-import Image from "next/image"
 import { blogs } from "@/app/lib/placeholder-data"
-import { Blog_Type } from "@/app/lib/definitions"
 import BlogCard from "./BlogCard"
 import Testimonials from "./Testimonials"
 import Banner from "./Banner"
@@ -9,7 +7,7 @@ export default function Trending() {
   return (
     <div className="py-12">
         <div className="bg-blue-900 text-white px-8 py-12">
-        <p className="tracking-widest text-center">WHAT'S TRENDING</p>
+        <p className="tracking-widest text-center">WHAT&rsquo;S TRENDING</p>
         <h3 className="text-3xl font-semibold tracking-wide text-center pt-2 pb-8">
             Latest Blogs & Posts
         </h3>

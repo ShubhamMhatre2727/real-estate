@@ -1,23 +1,23 @@
 export type Estate_Type = {
-    url: String,
-    icon: String | null,
-    price: Number,
-    title: String,
-    address: String,
-    beds: Number,
-    baths: Number,
+    url: string,
+    icon: string | null,
+    price: number,
+    title: string,
+    address: string,
+    beds: number,
+    baths: number,
 }
 
 export type Service_Type = {
-    url:String,
-    text: String,
-    description: String
+    url:string,
+    text: string,
+    description: string
 }
 
 export type Propert_Type = {
     url: string,
     count: number,
-    place: String
+    place: string
 }
 
 export type Team_type = {
