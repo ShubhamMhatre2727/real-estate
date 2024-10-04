@@ -5,10 +5,12 @@ import Listings from "./components/listings/Listings";
 import Services from "./components/services/Services";
 import Trending from "./components/trending/Trending";
 import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
 
 export default function Home() {
   return (
     <div className="">
+      <Header/>
       <NavBar/>
       <Hero/>
       <About/>

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const SearchForm = () => {
   return (
-    <form action="" className="border bg-white flex flex-col rounded-3xl my-6 py-2 mx-8">
+    <form action="" className="border w-full sm:w-[30%] bg-white flex flex-col rounded-3xl my-4 py-2 mx-8">
         <div className="border-b-2 text-gray-400 flex justify-center font-bold">
           <div className="p-4 translate-y-0.5">
             <input
@@ -36,19 +36,20 @@ const SearchForm = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-5 py-8 px-6">
+        <div className="flex flex-col h-full justify-center gap-6 py-8 px-6">
           <input
             type="text"
             placeholder="New York, Sen Fransisco, etc"
-            className="bg-gray-50 rounded-xl py-3"
+            className="bg-gray-100 rounded-2xl h-14 px-4"
           />
-          <select className="bg-gray-50 rounded-xl py-3">
-            <option value="">Select propert type</option>
+          <select className="bg-gray-100 rounded-2xl h-14 px-4">
+            
+            <option value="">Select property type</option>
           </select>
-          <select className="bg-gray-50 rounded-xl py-3">
+          <select className="bg-gray-100 rounded-2xl h-14 px-4">
             <option value="">Select rooms</option>
           </select>
-          <button className="border py-3 rounded-full bg-blue-900 grid place-content-center">
+          <button className="border p-5 my-4 rounded-full bg-blue-900 grid place-content-center">
             <Image
               src="/search.svg"
               alt="search-icon"

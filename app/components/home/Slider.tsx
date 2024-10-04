@@ -27,15 +27,15 @@ const Slider = () => {
     }
 
   return (
-    <div className="relative size-fit py-4">
-        <div className="absolute top-[40%] left-1" onClick={handleLeft}>
+    <div className="relative size-fit sm:w-5/6 py-4">
+        <div className="absolute top-[40%] left-1 sm:-left-5" onClick={handleLeft}>
         <LeftArrow/>
         </div>
-        <div className="absolute top-[40%] right-1" onClick={handleRight}>
+        <div className="absolute top-[40%] right-1 sm:-right-5" onClick={handleRight}>
         <RightArrow/>
         </div>
 
-        <div ref={ref} className="flex size-full overflow-hidden scroll-smooth">
+        <div ref={ref} className="flex size-full [&>*]:w-full overflow-hidden scroll-smooth">
             <Image className="rounded-3xl" src="/slides/slide_2.jpg" alt="slide" width={450} height={400}/>
             <Image className="rounded-3xl" src="/slides/slide_2.jpg" alt="slide" width={450} height={400}/>
             <Image className="rounded-3xl" src="/slides/slide_2.jpg" alt="slide" width={450} height={400}/>
