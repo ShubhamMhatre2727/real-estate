@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Hamburger from "./Hamburger"
 import Icon from "./Icon"
-import Header from "../header/Header"
 
 const NavBar = () => {
   return (

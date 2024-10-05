@@ -8,12 +8,12 @@ export default function Services() {
   return (
     <div>
         <div className="px-8 py-12 bg-gray-100">
-        <p className="tracking-widest text-sm font-mediam text-center">OUR SERVICES</p>
-        <h2 className="text-2xl font-semibold text-center mx-auto w-56 sm:w-full">
+        <p className="tracking-widest text-sm sm:text-lg font-mediam text-center">OUR SERVICES</p>
+        <h2 className="text-2xl sm:text-5xl font-semibold text-center mx-auto w-56 sm:w-full py-10">
             Donec porttitor euismod dignissim
         </h2>
 
-        <div className="flex flex-col gap-6 py-8">
+        <div className="flex flex-wrap justify-center gap-6 py-8">
            {
             services.map((service:Service_Type)=>{
                 return (

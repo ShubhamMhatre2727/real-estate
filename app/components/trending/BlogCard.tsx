@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function BlogCard({blog}:{blog:Blog_Type}){
     return(
-        <div className="divide-y-8 divide-transparent text-start">
+        <div className="divide-y-8 divide-transparent text-start sm:w-96">
             <div className="relative w-full rounded-3xl overflow-hidden text-center">
                 <Image src={`${blog.url}`} alt="" width={1000} height={100} className="brightness-[0.8]"/>
                 <div className="absolute top-0 left-8 bg-white text-black w-fit px-4 rounded-b-xl">
@@ -11,7 +11,7 @@ export default function BlogCard({blog}:{blog:Blog_Type}){
                     <p className=" text-gray-500 -translate-y-2">{blog.day}</p>
                 </div>
             </div>
-            <h2 className="text-xl">
+            <h2 className="text-xl sm:text-3xl">
                 {blog.title}
             </h2>
             <p className=" opacity-60">

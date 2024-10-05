@@ -1,8 +1,11 @@
 import Image from "next/image";
+import QuickLinks from "./QuickLinks";
+import Discovery from "./Discovery";
 
 export default function Footer() {
   return (
-    <div className="px-12 py-8 text-center flex flex-col gap-2 bg-blue-50">
+    <div className="px-12 py-8 text-center flex flex-wrap justify-evenly gap-2 bg-blue-50">
+        <div>
         <Image src="/icon.svg" alt="icon" width={100} height={100} className="mx-auto"/>
         <p className="text-gray-500 text-center">
         2728 Hickory StreetSalt  Lake City, UT 84104
@@ -17,8 +20,13 @@ export default function Footer() {
             <Image src="/footer/mail.svg" alt="" width={15} height={15}/>
         
            &nbsp; support@rezilla.com
-        </a>
+        </a>   
+        </div> 
 
+        <QuickLinks/>
+        <Discovery/>
+
+        <div>
         <strong className="text-xl">
         Subscribe to our Newsletter!
         </strong>
@@ -37,6 +45,7 @@ export default function Footer() {
                 <Image src="/footer/facebook.svg" alt="" width={10} height={10}/>
                 <Image src="/footer/instagram.svg" alt="" width={20} height={20}/>
             </div>
+        </div>
         </div>
     </div>
   )

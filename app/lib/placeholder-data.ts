@@ -57,26 +57,31 @@ export const services = [
 
 export const properties = [
     {
+        id:1,
         url:"/services/properties/property1.jpg",
         count: 216,
         place: "New York City, NY"
     },
     {
+        id:2,
         url:"/services/properties/property2.jpg",
         count: 141,
         place: "Houston, TX"
     },
     {
+        id:3,
         url:"/services/properties/property3.jpg",
         count: 212,
         place: "San Diego, CA"
     },
     {
+        id:4,
         url:"/services/properties/property4.jpg",
         count: 183,
         place: "Philadelphie, PA"
     },
     {
+        id:5,
         url:"/services/properties/property5.jpg",
         count: 112,
         place: "San Fransisco, CA"

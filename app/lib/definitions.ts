@@ -15,6 +15,7 @@ export type Service_Type = {
 }
 
 export type Propert_Type = {
+    id: number,
     url: string,
     count: number,
     place: string
